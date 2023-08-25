@@ -20,7 +20,7 @@ Save the Clean data to the file
 
 # CODE and OUTPUT
 
-
+```
 import pandas as pj
 df1=pj.read_csv("Loan_data.csv")
 print(df1)
@@ -56,6 +56,7 @@ df['watchers']=df['watchers'].fillna(df['watchers'].median())
 print(df['watchers'])
 df.isnull().sum()
 df.info()
+```
 ##output loaddata
 
 <img width="364" alt="Screenshot 2023-08-23 160056" src="https://github.com/Jaswanthp323/ODD2023-Datascience-Ex01/assets/143204560/c3ee4b09-e014-49a3-86a3-887fa491dc89">
